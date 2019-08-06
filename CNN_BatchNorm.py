@@ -17,4 +17,8 @@ def CNNModel():
     model.add(BatchNormalization())
     model.add(Activation("relu"))
 
+    model.add(Conv2D(filters=256, kernel_size=(5,5),padding="valid"))
+    model.add(BatchNormalization())
+    model.add(Activation("relu"))
+
     return model
