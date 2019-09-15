@@ -25,4 +25,8 @@ def CNNModel():
     model.add(BatchNormalization())
     model.add(Activation("relu"))
 
+    model.add(Flatten())
+    model.add(Dense(256, activation='relu'))
+    model.add(Dense(128, activation='relu'))
+    model.add(Dense(1, activation='sigmoid'))
     return model
