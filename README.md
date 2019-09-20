@@ -13,7 +13,7 @@
 		First I tried with state of the art model VGG16 for classifying the image.
 	</li>
 	<li>
-		VGG16 had a poor performance on the dataset. Maybe its because patch size of the images is relatively very small to be used with maxpool, used heavily in VGG16.
+		VGG16 had a poor performance on the dataset. Maybe its because patch size of the images is relatively very small to be used with maxpool, which is used heavily in VGG16.
 	</li>
 	<li>
 		Second Implementation gave very nice performance, in which I have ommited maxpool and applied batch normalization. 
