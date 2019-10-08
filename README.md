@@ -1,4 +1,4 @@
-# Car Detction from satellite | Aerial image
+# Car Detection from satellite | Aerial image
 
 <b>Dataset:</b> 
 <ul>
