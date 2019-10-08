@@ -1,4 +1,4 @@
-# Car Detection from satellite | Aerial image
+# Car Detection from Satellite | Aerial image
 
 <b>Dataset:</b> 
 <ul>
@@ -7,7 +7,7 @@
 	<li>Developed a model to detect cars in 15cm aerial imagery.</li>
 </ul>
 
-<b>Model</b>
+<b>Model Implementation</b>
 <ul>
 	<li>
 		First I tried with state of the art model VGG16 for classifying the image.
